@@ -1,0 +1,37 @@
+DOMAIN,forum.syncthing.net
+DOMAIN,download.jetbrains.com
+DOMAIN,www.mirgovorit.ru
+DOMAIN,habr.com
+
+DOMAIN-SUFFIX,openwrt.org
+DOMAIN-SUFFIX,pi-hole.net
+DOMAIN-SUFFIX,t-ru.org
+DOMAIN-SUFFIX,pixelbuilds.org
+DOMAIN-SUFFIX,ubuntu-touch.io
+DOMAIN-SUFFIX,psprices.com
+DOMAIN-SUFFIX,unraid.net
+DOMAIN-SUFFIX,ru-board.com
+DOMAIN-SUFFIX,tuta.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,zoom.us
+DOMAIN-SUFFIX,disquscdn.com
+DOMAIN-SUFFIX,bilak.info
+DOMAIN-SUFFIX,temporal.io
+DOMAIN-SUFFIX,gname.com
+DOMAIN-SUFFIX,gname.net
+
+DOMAIN-KEYWORD,4pda
+
+# hetzner
+DOMAIN-SUFFIX,hetzner.com
+DOMAIN-SUFFIX,hetzner.cloud
+
+# oneplus
+DOMAIN-SUFFIX,allawnos.com
+DOMAIN-SUFFIX,allawnofs.com
+DOMAIN-SUFFIX,coloros.com
+
+# fast.com
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,nflxvideo.net

@@ -1,0 +1,3 @@
+DOMAIN,api.alador.space
+DOMAIN,m.pushbr.com
+DOMAIN,s.pushbr.com
