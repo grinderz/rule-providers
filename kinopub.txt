@@ -2,3 +2,4 @@ DOMAIN,api.alador.space
 DOMAIN,m.pushbr.com
 DOMAIN,s.pushbr.com
 DOMAIN,kpdl.link
+DOMAIN,kinopub.online
