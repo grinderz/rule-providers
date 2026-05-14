@@ -1,0 +1,172 @@
+rule-providers:
+
+  custom-private:
+    behavior: classical
+    type: file
+    format: text
+    path: ./lst/custom-private.txt
+    
+  custom-ip:
+    behavior: ipcidr
+    format: text
+    type: http
+    url: 'https://raw.githubusercontent.com/grinderz/rule-providers/refs/heads/master/custom-ip.txt'
+    interval: 86400
+    path: ./ruleset/custom-ip.txt
+  
+  custom:
+    type: http
+    behavior: classical
+    format: text
+    url: 'https://raw.githubusercontent.com/grinderz/rule-providers/refs/heads/master/custom.txt'
+    path: ./ruleset/custom.txt
+    interval: 86400
+  
+  ip-tool:
+    type: http
+    behavior: classical
+    format: text
+    url: 'https://raw.githubusercontent.com/grinderz/rule-providers/refs/heads/master/ip-tool.txt'
+    path: ./ruleset/ip-tool.txt
+    interval: 86400
+    
+  kinopub:
+    type: http
+    behavior: classical
+    format: text
+    url: 'https://raw.githubusercontent.com/grinderz/rule-providers/refs/heads/master/kinopub.txt'
+    path: ./ruleset/kinopub.txt
+    interval: 86400
+    
+  mega-ip:
+    behavior: ipcidr
+    format: text
+    type: http
+    url: 'https://raw.githubusercontent.com/grinderz/rule-providers/refs/heads/master/mega-ip.txt'
+    interval: 86400
+    path: ./ruleset/mega-ip.txt
+  
+  mega:
+    behavior: domain
+    type: http
+    format: yaml
+    url: 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/mega.yaml'
+    interval: 86400
+    path: ./ruleset/mega.yaml
+  
+  roblox-ip:
+    behavior: ipcidr
+    format: text
+    type: http
+    url: 'https://raw.githubusercontent.com/grinderz/rule-providers/refs/heads/master/roblox-ip.txt'
+    interval: 86400
+    path: ./ruleset/roblox-ip.txt
+    
+  roblox:
+    behavior: domain
+    type: http
+    format: yaml
+    url: 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/roblox.yaml'
+    interval: 86400
+    path: ./ruleset/roblox.yaml
+
+  telegram-ip:
+    behavior: ipcidr
+    format: text
+    type: http
+    url: 'https://core.telegram.org/resources/cidr.txt'
+    interval: 86400
+    path: ./ruleset/telegram-ip.txt
+    proxy: PROXY
+
+  telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: 'https://raw.githubusercontent.com/grinderz/rule-providers/refs/heads/master/telegram.txt'
+    path: ./ruleset/telegram.txt
+    interval: 86400
+
+  youtube:
+    behavior: classical
+    type: http
+    format: yaml
+    url: 'https://raw.githubusercontent.com/grinderz/rule-providers/refs/heads/master/youtube.yaml'
+    interval: 86400
+    path: ./ruleset/youtube.yaml
+    
+  claude:
+    behavior: classical
+    type: http
+    format: yaml
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude.yaml"
+    interval: 86400
+    path: ./ruleset/claude.yaml
+
+  openai:
+    behavior: classical
+    type: http
+    format: yaml
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.yaml"
+    interval: 86400
+    path: ./ruleset/openai.yaml
+
+  gemini:
+    behavior: classical
+    type: http
+    format: yaml
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.yaml"
+    interval: 86400
+    path: ./ruleset/gemini.yaml
+
+  cloudflare-ip:
+    behavior: ipcidr
+    format: text
+    type: http
+    url: 'https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Subnets/IPv4/cloudflare.lst'
+    interval: 86400
+    path: ./ruleset/cloudflare-ip.txt
+
+#  twitter:
+#    behavior: classical
+#    type: http
+#    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.yaml"
+#    interval: 86400
+#    path: ./ruleset/twitter.yaml
+#  instagram:
+#    behavior: classical
+#    type: http
+#    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Instagram/Instagram.yaml"
+#    interval: 86400
+#    path: ./ruleset/instagram.yaml
+#  facebook:
+#    behavior: classical
+#    type: http
+#    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Facebook/Facebook.yaml"
+#    interval: 86400
+#    path: ./ruleset/facebook.yaml
+#  discord-domain:
+#    behavior: classical
+#    type: http
+#    url: "https://raw.githubusercontent.com/fildunsky/clash_discord/refs/heads/main/discord-domain.yaml"
+#    interval: 86400
+#    path: ./ruleset/discord-domain.yaml
+#  discord-ip:
+#    behavior: classical
+#    type: http
+#    url: "https://raw.githubusercontent.com/fildunsky/clash_discord/refs/heads/main/discord-ip.yaml"
+#    interval: 86400
+#    path: ./ruleset/discord-ip.yaml
+#  notion:
+#    behavior: classical
+#    type: http
+#    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Notion/Notion.yaml"
+#    interval: 86400
+#    path: ./ruleset/notion.yaml
+#   whatsapp:
+#     behavior: classical
+#     type: http
+#     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Whatsapp/Whatsapp.yaml"    
+#     interval: 86400
+#     path: ./ruleset/whatsapp.yaml
+
