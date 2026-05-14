@@ -3,3 +3,4 @@ DOMAIN,m.pushbr.com
 DOMAIN,s.pushbr.com
 DOMAIN,kpdl.link
 DOMAIN,kinopub.online
+DOMAIN,kino.pub
