@@ -99,7 +99,7 @@ rule-providers:
     behavior: classical
     type: http
     format: yaml
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude.yaml"
+    url: 'https://raw.githubusercontent.com/grinderz/rule-providers/refs/heads/master/claude.yaml'
     interval: 86400
     path: ./ruleset/claude.yaml
 
