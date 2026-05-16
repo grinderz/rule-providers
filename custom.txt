@@ -1,5 +1,6 @@
 DOMAIN,forum.syncthing.net
 DOMAIN,download.jetbrains.com
+DOMAIN,plugins.jetbrains.com
 DOMAIN,www.mirgovorit.ru
 DOMAIN,habr.com
 
