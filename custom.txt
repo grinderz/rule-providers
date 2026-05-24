@@ -3,6 +3,7 @@ DOMAIN,download.jetbrains.com
 DOMAIN,plugins.jetbrains.com
 DOMAIN,www.mirgovorit.ru
 DOMAIN,habr.com
+DOMAIN,pydantic.dev
 
 DOMAIN-SUFFIX,openwrt.org
 DOMAIN-SUFFIX,pi-hole.net
