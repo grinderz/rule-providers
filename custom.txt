@@ -4,6 +4,8 @@ DOMAIN,plugins.jetbrains.com
 DOMAIN,www.mirgovorit.ru
 DOMAIN,habr.com
 DOMAIN,pydantic.dev
+DOMAIN,xdaforums.com
+DOMAIN,www.smspool.net
 
 DOMAIN-SUFFIX,openwrt.org
 DOMAIN-SUFFIX,pi-hole.net
@@ -22,6 +24,9 @@ DOMAIN-SUFFIX,bilak.info
 DOMAIN-SUFFIX,temporal.io
 DOMAIN-SUFFIX,gname.com
 DOMAIN-SUFFIX,gname.net
+DOMAIN-SUFFIX,oceanofpdf.com
+DOMAIN-SUFFIX,tilt.dev
+DOMAIN-SUFFIX,context7.com
 
 DOMAIN-KEYWORD,4pda
 
