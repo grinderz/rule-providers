@@ -27,6 +27,8 @@ DOMAIN-SUFFIX,gname.net
 DOMAIN-SUFFIX,oceanofpdf.com
 DOMAIN-SUFFIX,tilt.dev
 DOMAIN-SUFFIX,context7.com
+DOMAIN-SUFFIX,proton.me
+DOMAIN-SUFFIX,syncthing.net
 
 DOMAIN-KEYWORD,4pda
 
