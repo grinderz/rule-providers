@@ -127,6 +127,14 @@ rule-providers:
     interval: 86400
     path: ./ruleset/cloudflare-ip.txt
 
+  instagram:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Instagram/Instagram.yaml"
+    interval: 86400
+    path: ./ruleset/instagram.yaml
+
+
 #  twitter:
 #    behavior: classical
 #    type: http
