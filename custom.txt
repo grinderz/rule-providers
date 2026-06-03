@@ -47,5 +47,5 @@ DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,nflxvideo.net
 
 # wttr
-DOMAIN,wttr.in
-DOMAIN,wttr.is
+DOMAIN-SUFFIX,wttr.in
+DOMAIN-SUFFIX,wttr.is
