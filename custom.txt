@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,tilt.dev
 DOMAIN-SUFFIX,context7.com
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,syncthing.net
+DOMAIN-SUFFIX,notion.site
 
 DOMAIN-KEYWORD,4pda
 
@@ -44,3 +45,7 @@ DOMAIN-SUFFIX,coloros.com
 # fast.com
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,nflxvideo.net
+
+# wttr
+DOMAIN,wttr.in
+DOMAIN,wttr.is
