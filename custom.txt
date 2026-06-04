@@ -30,6 +30,7 @@ DOMAIN-SUFFIX,context7.com
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,syncthing.net
 DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,atuin.sh
 
 DOMAIN-KEYWORD,4pda
 
@@ -49,3 +50,9 @@ DOMAIN-SUFFIX,nflxvideo.net
 # wttr
 DOMAIN-SUFFIX,wttr.in
 DOMAIN-SUFFIX,wttr.is
+
+# apkpure
+DOMAIN-SUFFIX,cdnpure.com
+DOMAIN-SUFFIX,pureapk.com
+DOMAIN-SUFFIX,winudf.com
+DOMAIN-SUFFIX,apkpure.net
