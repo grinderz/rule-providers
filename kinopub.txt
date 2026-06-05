@@ -5,6 +5,7 @@ DOMAIN,kinopub.online
 DOMAIN,kino.pub
 
 DOMAIN-SUFFIX,pushbr.com
+DOMAIN-SUFFIX,teleos.club
 DOMAIN-SUFFIX,ahc.ovh
 DOMAIN-SUFFIX,gfw.ovh
 DOMAIN-SUFFIX,srvkp.com
