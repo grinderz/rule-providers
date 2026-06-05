@@ -1,9 +1,8 @@
-DOMAIN,api.alador.space
-DOMAIN,m.alador.space
 DOMAIN,kpdl.link
 DOMAIN,kinopub.online
 DOMAIN,kino.pub
 
+DOMAIN-SUFFIX,alador.space
 DOMAIN-SUFFIX,pushbr.com
 DOMAIN-SUFFIX,teleos.club
 DOMAIN-SUFFIX,ahc.ovh
