@@ -6,6 +6,7 @@ DOMAIN,habr.com
 DOMAIN,pydantic.dev
 DOMAIN,xdaforums.com
 DOMAIN,www.smspool.net
+DOMAIN,discussion.fedoraproject.org
 
 DOMAIN-SUFFIX,sqlalchemy.org
 DOMAIN-SUFFIX,openwrt.org
@@ -32,6 +33,7 @@ DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,syncthing.net
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,atuin.sh
+DOMAIN-SUFFIX,spotify.com
 
 DOMAIN-KEYWORD,4pda
 
@@ -57,3 +59,8 @@ DOMAIN-SUFFIX,cdnpure.com
 DOMAIN-SUFFIX,pureapk.com
 DOMAIN-SUFFIX,winudf.com
 DOMAIN-SUFFIX,apkpure.net
+
+# sptotify
+DOMAIN-SUFFIX,soundcloud.com
+DOMAIN-SUFFIX,sndcdn.com
+DOMAIN-SUFFIX,soundcloud.cloud
