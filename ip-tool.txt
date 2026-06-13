@@ -2,8 +2,6 @@ DOMAIN,ip.wtf
 DOMAIN,browserleaks.com
 DOMAIN,ifconfig.co
 
-DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,sam-net.cz
-DOMAIN-SUFFIX,ideatek.com
-DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,test-ipv6.com
+DOMAIN-SUFFIX,qms.ru
