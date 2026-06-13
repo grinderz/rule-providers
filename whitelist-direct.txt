@@ -29,4 +29,6 @@ DOMAIN-SUFFIX,xn--80ajghhoc2aj1c8b.xn--p1ai # честныйзнак.рф
 DOMAIN-SUFFIX,ya.ru
 DOMAIN-SUFFIX,yastatic.net
 DOMAIN-SUFFIX,gov.ru
+DOMAIN-SUFFIX,wildberries.ru
+
 DOMAIN-KEYWORD,yandex
