@@ -5,3 +5,7 @@ DOMAIN,ifconfig.co
 DOMAIN-SUFFIX,sam-net.cz
 DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,qms.ru
+
+# fast.com
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,nflxvideo.net

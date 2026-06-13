@@ -46,10 +46,6 @@ DOMAIN-SUFFIX,allawnos.com
 DOMAIN-SUFFIX,allawnofs.com
 DOMAIN-SUFFIX,coloros.com
 
-# fast.com
-DOMAIN-SUFFIX,fast.com
-DOMAIN-SUFFIX,nflxvideo.net
-
 # wttr
 DOMAIN-SUFFIX,wttr.in
 DOMAIN-SUFFIX,wttr.is
