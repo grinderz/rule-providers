@@ -4,7 +4,11 @@ DOMAIN,ifconfig.co
 DOMAIN-SUFFIX,sam-net.cz
 DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,qms.ru
-DOMAIN-SUFFIX,browserleaks.com
+
+# browserleak
+
+DOMAIN,browserleaks.com
+DOMAIN-SUFFIX,browserleaks.org
 
 # fast.com
 DOMAIN-SUFFIX,fast.com
