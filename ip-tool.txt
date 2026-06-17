@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,qms.ru
 
 DOMAIN,browserleaks.com
 DOMAIN-SUFFIX,browserleaks.org
+DOMAIN-SUFFIX,browserleaks.net
 
 # fast.com
 DOMAIN-SUFFIX,fast.com
