@@ -1,10 +1,10 @@
 DOMAIN,ip.wtf
-DOMAIN,browserleaks.com
 DOMAIN,ifconfig.co
 
 DOMAIN-SUFFIX,sam-net.cz
 DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,qms.ru
+DOMAIN-SUFFIX,browserleaks.com
 
 # fast.com
 DOMAIN-SUFFIX,fast.com
