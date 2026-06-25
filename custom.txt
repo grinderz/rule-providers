@@ -34,7 +34,11 @@ DOMAIN-SUFFIX,syncthing.net
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,atuin.sh
 DOMAIN-SUFFIX,spotify.com
-
+DOMAIN-SUFFIX,adblockplus.org
+DOMAIN-SUFFIX,oisd.nl
+DOMAIN-SUFFIX,buf.build
+DOMAIN,static.keet.io
+DOMAIN-SUFFIX,hopperapp.com
 DOMAIN-KEYWORD,4pda
 
 # hetzner
@@ -56,7 +60,12 @@ DOMAIN-SUFFIX,pureapk.com
 DOMAIN-SUFFIX,winudf.com
 DOMAIN-SUFFIX,apkpure.net
 
-# sptotify
+# soundcloud
 DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,sndcdn.com
 DOMAIN-SUFFIX,soundcloud.cloud
+
+# amazon
+
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,media-amazon.com
