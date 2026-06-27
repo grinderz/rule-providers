@@ -3,3 +3,4 @@ DOMAIN,3dh.pro
 DOMAIN,ali.click
 
 DOMAIN-SUFFIX,aliexpress.ru
+DOMAIN-SUFFIX,132lan.ru
