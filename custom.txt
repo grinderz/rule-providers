@@ -41,6 +41,7 @@ DOMAIN,static.keet.io
 DOMAIN-SUFFIX,hopperapp.com
 DOMAIN-SUFFIX,4pda.to
 DOMAIN-SUFFIX,4pda.ws
+DOMAIN-SUFFIX,theregister.com
 
 # hetzner
 DOMAIN-SUFFIX,hetzner.com
