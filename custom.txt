@@ -42,6 +42,7 @@ DOMAIN-SUFFIX,hopperapp.com
 DOMAIN-SUFFIX,4pda.to
 DOMAIN-SUFFIX,4pda.ws
 DOMAIN-SUFFIX,theregister.com
+DOMAIN-SUFFIX,kernel.org
 
 # hetzner
 DOMAIN-SUFFIX,hetzner.com
