@@ -1,0 +1,501 @@
+rule-providers:
+
+  custom-private:
+    behavior: classical
+    type: file
+    format: text
+    path: ./lst/custom-private.txt
+    
+  custom-ip:
+    behavior: ipcidr
+    format: text
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/grinderz/rule-providers@master/custom-ip.txt'
+    interval: 86400
+    path: ./ruleset/custom-ip.txt
+    proxy: PROXY
+  
+  custom:
+    type: http
+    behavior: classical
+    format: text
+    url: 'https://cdn.jsdelivr.net/gh/grinderz/rule-providers@master/custom.txt'
+    path: ./ruleset/custom.txt
+    interval: 86400
+    proxy: PROXY
+
+  ru-bundle:
+    type: http
+    behavior: domain
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/legiz-ru/mihomo-rule-sets@main/ru-bundle/rule.mrs'
+    path: ./ruleset/ru-bundle.mrs
+    interval: 86400
+    proxy: PROXY
+    
+  ru-bundle-ip:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/legiz-ru/mihomo-rule-sets@main/re-filter/ip-rule.mrs'
+    path: ./ruleset/ru-bundle-ip.mrs
+    interval: 86400
+    proxy: PROXY
+    
+  ip-tool:
+    type: http
+    behavior: classical
+    format: text
+    url: 'https://cdn.jsdelivr.net/gh/grinderz/rule-providers@master/ip-tool.txt'
+    path: ./ruleset/ip-tool.txt
+    interval: 86400
+    proxy: PROXY
+    
+  kinopub:
+    type: http
+    behavior: classical
+    format: text
+    url: 'https://cdn.jsdelivr.net/gh/grinderz/rule-providers@master/kinopub.txt'
+    path: ./ruleset/kinopub.txt
+    interval: 86400
+    proxy: PROXY
+    
+  mega-ip:
+    behavior: ipcidr
+    format: text
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/grinderz/rule-providers@master/mega-ip.txt'
+    interval: 86400
+    path: ./ruleset/mega-ip.txt
+    proxy: PROXY
+  
+  mega:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/mega.mrs'
+    interval: 86400
+    path: ./ruleset/mega.mrs
+    proxy: PROXY
+    
+  roblox-ip:
+    behavior: ipcidr
+    format: text
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/grinderz/rule-providers@master/roblox-ip.txt'
+    interval: 86400
+    path: ./ruleset/roblox-ip.txt
+    proxy: PROXY
+    
+  roblox:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/roblox.mrs'
+    interval: 86400
+    path: ./ruleset/roblox.mrs
+    proxy: PROXY
+    
+  telegram-ip:
+    behavior: ipcidr
+    format: text
+    type: http
+    url: 'https://core.telegram.org/resources/cidr.txt'
+    interval: 86400
+    path: ./ruleset/telegram-ip.txt
+    proxy: PROXY
+    
+  telegram:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/telegram.mrs'
+    interval: 86400
+    path: ./ruleset/telegram.mrs
+    proxy: PROXY
+    
+  youtube:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/youtube.mrs'
+    interval: 86400
+    path: ./ruleset/youtube.mrs
+    proxy: PROXY
+    
+  anthropic:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/anthropic.mrs'
+    interval: 86400
+    path: ./ruleset/anthropic.mrs
+    proxy: PROXY
+    
+  openai:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/openai.mrs'
+    interval: 86400
+    path: ./ruleset/openai.mrs
+    proxy: PROXY
+    
+  gemini:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google-gemini.mrs'
+    interval: 86400
+    path: ./ruleset/gemini.mrs
+    proxy: PROXY
+    
+  cloudflare:
+    behavior: domain
+    format: mrs
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cloudflare.mrs'
+    interval: 86400
+    path: ./ruleset/cloudflare.mrs
+    proxy: PROXY
+    
+  cloudflare-ip:
+    behavior: ipcidr
+    format: mrs
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cloudflare.mrs'
+    interval: 86400
+    path: ./ruleset/cloudflare-ip.mrs
+    proxy: PROXY
+    
+  instagram:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/instagram.mrs'
+    interval: 86400
+    path: ./ruleset/instagram.mrs
+    proxy: PROXY
+    
+  notion:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/notion.mrs'
+    interval: 86400
+    path: ./ruleset/notion.mrs
+    proxy: PROXY
+    
+  twitter:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/twitter.mrs'
+    interval: 86400
+    path: ./ruleset/twitter.mrs
+    proxy: PROXY
+    
+  twitter-ip:
+    behavior: ipcidr
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/twitter.mrs'
+    interval: 86400
+    path: ./ruleset/twitter-ip.mrs
+    proxy: PROXY
+    
+  intel:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/intel.mrs'
+    interval: 86400
+    path: ./ruleset/intel.mrs
+    proxy: PROXY
+    
+  facebook:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/facebook.mrs'
+    interval: 86400
+    path: ./ruleset/facebook.mrs
+    proxy: PROXY
+    
+  facebook-ip:
+    behavior: ipcidr
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/facebook.mrs'
+    interval: 86400
+    path: ./ruleset/facebook-ip.mrs
+    proxy: PROXY
+    
+  speedtest:
+    type: http
+    behavior: domain
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-speedtest.mrs'
+    path: ./ruleset/speedtest.mrs
+    interval: 86400
+    proxy: PROXY
+    
+  soundcloud:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/soundcloud.mrs'
+    interval: 86400
+    path: ./ruleset/soundcloud.mrs
+    proxy: PROXY
+    
+  github:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/github.mrs'
+    interval: 86400
+    path: ./ruleset/github.mrs
+    proxy: PROXY
+    
+  torrent-websites:
+    type: http
+    behavior: domain
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/legiz-ru/mihomo-rule-sets@main/other/torrent-websites.mrs'
+    path: ./ruleset/torrent-websites.mrs
+    interval: 86400
+    proxy: PROXY
+    
+#  google:
+#    behavior: classical
+#    type: http
+#    url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml'
+#    interval: 86400
+#    path: ./ruleset/google.yaml
+#    proxy: PROXY
+#  vimeo:
+#    behavior: classical
+#    type: http
+#    url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Vimeo/Vimeo.yaml'
+#    interval: 86400
+#    path: ./ruleset/vimeo.yaml
+#    proxy: PROXY
+#  tik-tok:
+#    behavior: classical
+#    type: http
+#    url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/TikTok/TikTok.yaml'
+#    interval: 86400
+#    path: ./ruleset/tik-tok.yaml
+#    proxy: PROXY
+#  spotify:
+#    behavior: classical
+#    type: http
+#    url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Spotify/Spotify.yaml'
+#    interval: 86400
+#    path: ./ruleset/spotify.yaml
+#    proxy: PROXY
+#  microsoft:
+#    behavior: classical
+#    type: http
+#    url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml'
+#    interval: 86400
+#    path: ./ruleset/microsoft.yaml
+#    proxy: PROXY
+#  discord-domain:
+#    behavior: classical
+#    type: http
+#    url: 'https://cdn.jsdelivr.net/gh/fildunsky/clash_discord@main/discord-domain.yaml'
+#    interval: 86400
+#    path: ./ruleset/discord-domain.yaml
+#    proxy: PROXY
+#  discord-ip:
+#    behavior: classical
+#    type: http
+#    url: 'https://cdn.jsdelivr.net/gh/fildunsky/clash_discord@main/discord-ip.yaml'
+#    interval: 86400
+#    path: ./ruleset/discord-ip.yaml
+#    proxy: PROXY
+#   whatsapp:
+#     behavior: classical
+#     type: http
+#     url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Whatsapp/Whatsapp.yaml'
+#     interval: 86400
+#     path: ./ruleset/whatsapp.yaml
+#    proxy: PROXY
+#  adobe:
+#    behavior: classical
+#    type: http
+#    url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Adobe/Adobe.yaml'
+#    interval: 86400
+#    path: ./ruleset/adobe.yaml
+#    proxy: PROXY
+#  geosite-tracker:
+#    type: http
+#    behavior: domain
+#    format: mrs
+#    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/tracker.mrs
+#    path: ./ruleset/geosite-tracker.mrs
+#    interval: 86400
+#    proxy: PROXY
+#  torrent-trackers:
+#    type: http
+#    behavior: domain
+#    format: mrs
+#    url: https://cdn.jsdelivr.net/gh/legiz-ru/mihomo-rule-sets@main/other/torrent-trackers.mrs
+#    path: ./ruleset/torrent-trackers.mrs
+#    interval: 86400
+#    proxy: PROXY
+#  apple:
+#    behavior: domain
+#    type: http
+#    format: mrs
+#    url: 'https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/apple.mrs'
+#    interval: 86400
+#    path: ./ruleset/apple.mrs
+#    proxy: PROXY
+#  google-play:
+#    behavior: domain
+#    type: http
+#    format: mrs
+#    url: 'https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/google-play.mrs'
+#    interval: 86400
+#    path: ./ruleset/google-play.mrs
+#    proxy: PROXY
+#  twitch:
+#    behavior: domain
+#    type: http
+#    format: mrs
+#    url: 'https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/twitch.mrs'
+#    interval: 86400
+#    path: ./ruleset/twitch.mrs
+#    proxy: PROXY
+
+
+  # WHITELIST
+
+  whitelist:
+    behavior: domain
+    format: text
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/hxehex/russia-mobile-internet-whitelist@main/whitelist.txt'
+    interval: 86400
+    path: ./ruleset/whitelist.txt
+    proxy: PROXY
+
+  whitelist-direct:
+    behavior: classical
+    format: text
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/grinderz/rule-providers@master/whitelist-direct.txt'
+    interval: 86400
+    path: ./ruleset/whitelist-direct.txt
+    proxy: PROXY
+    
+  whitelist-pre-proxy:
+    behavior: classical
+    format: text
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/grinderz/rule-providers@master/whitelist-pre-proxy.txt'
+    interval: 86400
+    path: ./ruleset/whitelist-pre-proxy.txt
+    proxy: PROXY
+    
+  whitelist-post-proxy:
+    behavior: classical
+    format: text
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/grinderz/rule-providers@master/whitelist-post-proxy.txt'
+    interval: 86400
+    path: ./ruleset/whitelist-post-proxy.txt
+    proxy: PROXY
+    
+  vk:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/vk.mrs'
+    interval: 86400
+    path: ./ruleset/vk.mrs
+    proxy: PROXY
+    
+  yandex:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/yandex.mrs'
+    interval: 86400
+    path: ./ruleset/yandex.mrs
+    proxy: PROXY
+    
+  russia-outside:
+    behavior: classical
+    type: http
+    format: text
+    url: 'https://cdn.jsdelivr.net/gh/itdoginfo/allow-domains@main/Russia/outside-clashx.lst'
+    interval: 86400
+    proxy: PROXY
+    path: ./ruleset/russia-outside.txt
+    
+  geosite-private:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/private.mrs'
+    interval: 2592000
+    path: ./ruleset/geosite-private.mrs
+    proxy: PROXY
+
+  geoip-private:
+    behavior: ipcidr
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip/release/mihomo/private.mrs'
+    interval: 2592000
+    path: ./ruleset/geoip-private.mrs
+    proxy: PROXY
+    
+  geoip-direct:
+    behavior: ipcidr
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip/release/mihomo/direct.mrs'
+    interval: 86400
+    path: ./ruleset/geoip-direct.mrs
+    proxy: PROXY
+    
+  geosite-whitelist:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/whitelist.mrs'
+    interval: 86400
+    path: ./ruleset/geosite-whitelist.mrs
+    proxy: PROXY
+
+  geoip-whitelist:
+    behavior: ipcidr
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip/release/mihomo/whitelist.mrs'
+    interval: 86400
+    path: ./ruleset/geoip-whitelist.mrs
+    proxy: PROXY
+
+  geosite-ru:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/category-ru.mrs'
+    interval: 86400
+    path: ./ruleset/geosite-ru.mrs
+    proxy: PROXY
+
+  geoip-ru:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/ru.mrs'
+    path: ./ruleset/geoip-ru.mrs
+    interval: 86400
+    proxy: PROXY
