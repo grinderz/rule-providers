@@ -8,6 +8,8 @@ DOMAIN,xdaforums.com
 DOMAIN,www.smspool.net
 DOMAIN,discussion.fedoraproject.org
 DOMAIN,forums.docker.com
+DOMAIN,blog.fraggod.net
+DOMAIN,static.keet.io
 
 DOMAIN-SUFFIX,sqlalchemy.org
 DOMAIN-SUFFIX,openwrt.org
@@ -37,12 +39,16 @@ DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,oisd.nl
 DOMAIN-SUFFIX,buf.build
-DOMAIN,static.keet.io
 DOMAIN-SUFFIX,hopperapp.com
 DOMAIN-SUFFIX,4pda.to
 DOMAIN-SUFFIX,4pda.ws
 DOMAIN-SUFFIX,theregister.com
 DOMAIN-SUFFIX,kernel.org
+DOMAIN-SUFFIX,dwarmstrong.org
+DOMAIN-SUFFIX,justinas.org
+DOMAIN-SUFFIX,garrido.io
+DOMAIN-SUFFIX,minskio.co.uk
+DOMAIN-SUFFIX,emersion.fr
 
 # hetzner
 DOMAIN-SUFFIX,hetzner.com
@@ -62,8 +68,3 @@ DOMAIN-SUFFIX,cdnpure.com
 DOMAIN-SUFFIX,pureapk.com
 DOMAIN-SUFFIX,winudf.com
 DOMAIN-SUFFIX,apkpure.net
-
-# amazon
-
-DOMAIN-SUFFIX,amazon.com
-DOMAIN-SUFFIX,media-amazon.com
