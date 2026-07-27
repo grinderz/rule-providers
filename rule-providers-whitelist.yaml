@@ -267,6 +267,24 @@ rule-providers:
     interval: 86400
     proxy: PROXY
     
+  amazon:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/amazon.mrs'
+    interval: 86400
+    path: ./ruleset/amazon.mrs
+    proxy: PROXY
+
+  amazon-ip:
+    behavior: ipcidr
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cloudfront.mrs'
+    interval: 86400
+    path: ./ruleset/amazon-ip.mrs
+    proxy: PROXY
+    
 #  google:
 #    behavior: classical
 #    type: http

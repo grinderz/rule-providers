@@ -225,14 +225,6 @@ rule-providers:
     interval: 86400
     path: ./ruleset/soundcloud.mrs
 
-#  github:
-#    behavior: domain
-#    type: http
-#    format: mrs
-#    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/github.mrs'
-#    interval: 86400
-#    path: ./ruleset/github.mrs
-
   torrent-websites:
     type: http
     behavior: domain
@@ -240,6 +232,30 @@ rule-providers:
     url: 'https://cdn.jsdelivr.net/gh/legiz-ru/mihomo-rule-sets@main/other/torrent-websites.mrs'
     path: ./ruleset/torrent-websites.mrs
     interval: 86400
+    
+  amazon:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/amazon.mrs'
+    interval: 86400
+    path: ./ruleset/amazon.mrs
+
+  amazon-ip:
+    behavior: ipcidr
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cloudfront.mrs'
+    interval: 86400
+    path: ./ruleset/amazon-ip.mrs
+
+#  github:
+#    behavior: domain
+#    type: http
+#    format: mrs
+#    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/github.mrs'
+#    interval: 86400
+#    path: ./ruleset/github.mrs
 
 #  playstation:
 #    behavior: classical
