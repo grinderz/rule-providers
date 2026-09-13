@@ -249,6 +249,38 @@ rule-providers:
     interval: 86400
     path: ./ruleset/amazon-ip.mrs
 
+  stripe:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/stripe.mrs'
+    interval: 86400
+    path: ./ruleset/stripe.mrs
+
+  vivo:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/vivo.mrs'
+    interval: 86400
+    path: ./ruleset/vivo.mrs
+
+  oneplus:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/oneplus.mrs'
+    interval: 86400
+    path: ./ruleset/oneplus.mrs
+
+  oppo:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/oppo.mrs'
+    interval: 86400
+    path: ./ruleset/oppo.mrs
+    
 #  github:
 #    behavior: domain
 #    type: http
