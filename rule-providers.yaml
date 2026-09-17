@@ -280,7 +280,15 @@ rule-providers:
     url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/oppo.mrs'
     interval: 86400
     path: ./ruleset/oppo.mrs
-    
+
+  huawei:
+    behavior: domain
+    type: http
+    format: mrs
+    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/huawei.mrs'
+    interval: 86400
+    path: ./ruleset/huawei.mrs
+
 #  github:
 #    behavior: domain
 #    type: http
