@@ -50,7 +50,7 @@ DOMAIN-SUFFIX,garrido.io
 DOMAIN-SUFFIX,minskio.co.uk
 DOMAIN-SUFFIX,emersion.fr
 DOMAIN-SUFFIX,sublimemerge.com
-DIMAIN-SUFFIX,sublimetext.com
+DOMAIN-SUFFIX,sublimetext.com
 
 # hetzner
 DOMAIN-SUFFIX,hetzner.com
