@@ -10,6 +10,8 @@ DOMAIN,discussion.fedoraproject.org
 DOMAIN,forums.docker.com
 DOMAIN,blog.fraggod.net
 DOMAIN,static.keet.io
+DOMAIN,existential.audio
+DOMAIN,pig-monkey.com
 
 DOMAIN-SUFFIX,sqlalchemy.org
 DOMAIN-SUFFIX,openwrt.org
