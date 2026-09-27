@@ -297,6 +297,14 @@ rule-providers:
 #    interval: 86400
 #    path: ./ruleset/github.mrs
 
+#  xiaomi:
+#    behavior: domain
+#    type: http
+#    format: mrs
+#    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/xiaomi.mrs'
+#    interval: 86400
+#    path: ./ruleset/xiaomi.mrs
+
 #  playstation:
 #    behavior: classical
 #    type: http
@@ -387,7 +395,7 @@ rule-providers:
 #    behavior: domain
 #    type: http
 #    format: mrs
-#    url: 'https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/apple.mrs'
+#    url: 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple.mrs'
 #    interval: 86400
 #    path: ./ruleset/apple.mrs
 
