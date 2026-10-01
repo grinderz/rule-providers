@@ -53,6 +53,7 @@ DOMAIN-SUFFIX,minskio.co.uk
 DOMAIN-SUFFIX,emersion.fr
 DOMAIN-SUFFIX,sublimemerge.com
 DOMAIN-SUFFIX,sublimetext.com
+DOMAIN-SUFFIX,snikket.org
 
 # hetzner
 DOMAIN-SUFFIX,hetzner.com
