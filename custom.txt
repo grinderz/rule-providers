@@ -73,3 +73,8 @@ DOMAIN-SUFFIX,cdnpure.com
 DOMAIN-SUFFIX,pureapk.com
 DOMAIN-SUFFIX,winudf.com
 DOMAIN-SUFFIX,apkpure.net
+
+# google play
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gvt1.com
+
