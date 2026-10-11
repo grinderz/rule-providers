@@ -1,6 +1,7 @@
 DOMAIN,ip.wtf
 DOMAIN,ifconfig.co
 DOMAIN,ipinfo.io
+DOMAIN,checkip.amazonaws.com
 
 DOMAIN-SUFFIX,sam-net.cz
 DOMAIN-SUFFIX,test-ipv6.com
