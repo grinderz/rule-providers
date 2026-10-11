@@ -55,6 +55,7 @@ DOMAIN-SUFFIX,sublimemerge.com
 DOMAIN-SUFFIX,sublimetext.com
 DOMAIN-SUFFIX,snikket.org
 DOMAIN-SUFFIX,.flathub.org
+DOMAIN-SUFFIX,mend.io
 
 # hetzner
 DOMAIN-SUFFIX,hetzner.com
