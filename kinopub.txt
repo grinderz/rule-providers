@@ -1,6 +1,7 @@
 DOMAIN,kpdl.link
 DOMAIN,kinopub.online
 DOMAIN,kino.pub
+DOMAIN,kino.watch
 
 DOMAIN-SUFFIX,alador.space
 DOMAIN-SUFFIX,pushbr.com
