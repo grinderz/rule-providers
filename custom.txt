@@ -57,6 +57,8 @@ DOMAIN-SUFFIX,snikket.org
 DOMAIN-SUFFIX,.flathub.org
 DOMAIN-SUFFIX,mend.io
 DOMAIN-SUFFIX,bitwarden.com
+DOMAIN-SUFFIX,izzysoft.de
+DOMAIN-SUFFIX,open-meteo.com
 
 # hetzner
 DOMAIN-SUFFIX,hetzner.com
@@ -81,3 +83,5 @@ DOMAIN-SUFFIX,apkpure.net
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gvt1.com
 
+# google mail
+DOMAIN,imap.gmail.com
