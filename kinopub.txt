@@ -9,3 +9,4 @@ DOMAIN-SUFFIX,teleos.club
 DOMAIN-SUFFIX,ahc.ovh
 DOMAIN-SUFFIX,gfw.ovh
 DOMAIN-SUFFIX,srvkp.com
+DOMAIN-SUFFIX,ams-static-03.cdntogo.net
