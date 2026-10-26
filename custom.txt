@@ -12,6 +12,11 @@ DOMAIN,blog.fraggod.net
 DOMAIN,static.keet.io
 DOMAIN,existential.audio
 DOMAIN,pig-monkey.com
+DOMAIN,ounapuu.ee
+DOMAIN,rakyll.org
+DOMAIN,www.vsean.net
+DOMAIN,codemadness.org
+DOMAIN,rogs.me
 
 DOMAIN-SUFFIX,sqlalchemy.org
 DOMAIN-SUFFIX,openwrt.org
@@ -85,3 +90,7 @@ DOMAIN-SUFFIX,gvt1.com
 
 # google mail
 DOMAIN,imap.gmail.com
+
+# codeberg
+DOMAIN-SUFFIX,codeberg.org
+DOMAIN-SUFFIX,codeberg.page
