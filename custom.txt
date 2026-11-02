@@ -64,6 +64,7 @@ DOMAIN-SUFFIX,mend.io
 DOMAIN-SUFFIX,bitwarden.com
 DOMAIN-SUFFIX,izzysoft.de
 DOMAIN-SUFFIX,open-meteo.com
+DOMAIN-SUFFIX,nextdns.io
 
 # hetzner
 DOMAIN-SUFFIX,hetzner.com
