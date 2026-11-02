@@ -17,6 +17,7 @@ DOMAIN,rakyll.org
 DOMAIN,www.vsean.net
 DOMAIN,codemadness.org
 DOMAIN,rogs.me
+DOMAIN,linuxiac.com
 
 DOMAIN-SUFFIX,sqlalchemy.org
 DOMAIN-SUFFIX,openwrt.org
