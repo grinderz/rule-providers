@@ -9,6 +9,8 @@ DOMAIN-SUFFIX,qms.ru
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,ipqualityscore.com
 DOMAIN-SUFFIX,libreqos.com
+DOMAIN-SUFFIX,maxmind.com
+
 
 # browserleak
 DOMAIN,browserleaks.com
