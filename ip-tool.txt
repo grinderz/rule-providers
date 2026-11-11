@@ -1,7 +1,26 @@
 DOMAIN,ip.wtf
-DOMAIN,ifconfig.co
 DOMAIN,ipinfo.io
 DOMAIN,checkip.amazonaws.com
+DOMAIN,ipwho.is
+DOMAIN,ifconfig.me
+DOMAIN,ifconfig.co
+DOMAIN,ifconfig.io
+DOMAIN,icanhazip.com
+DOMAIN,ip-api.com
+DOMAIN,ipecho.net
+DOMAIN,wtfismyip.com
+DOMAIN,ipapi.co
+# DOMAIN,ipapi.is
+DOMAIN,ip.sb
+DOMAIN,showip.net
+DOMAIN,db-ip.com
+DOMAIN,ipgeolocation.io
+#DOMAIN,jsonip.com
+DOMAIN,check-host.net
+DOMAIN,whoer.net
+DOMAIN,ipdata.co
+DOMAIN,proxycheck.io
+DOMAIN,vpnapi.io
 
 DOMAIN-SUFFIX,sam-net.cz
 DOMAIN-SUFFIX,test-ipv6.com
@@ -10,7 +29,12 @@ DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,ipqualityscore.com
 DOMAIN-SUFFIX,libreqos.com
 DOMAIN-SUFFIX,maxmind.com
-
+DOMAIN-SUFFIX,2ip.io
+DOMAIN-SUFFIX,ident.me
+# DOMAIN-SUFFIX,iplocate.io
+DOMAIN-SUFFIX,whatismyipaddress.com
+DOMAIN-SUFFIX,whatismyip.com
+DOMAIN-SUFFIX,ipregistry.co
 
 # browserleak
 DOMAIN,browserleaks.com
