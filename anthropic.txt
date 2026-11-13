@@ -1,1 +1,41 @@
 DOMAIN-SUFFIX,anthropic.qualtrics.com
+
+# Datadog - browser error/performance data and operational logging
+DOMAIN-REGEX,(?i)^browser-intake(?:-[a-z0-9-]+)?-(?:datadoghq\.(?:com|eu)|ddog-gov\.com)$
+DOMAIN-REGEX,(?i)^http-intake\.logs(?:\.[a-z0-9-]+)?\.(?:datadoghq\.(?:com|eu)|ddog-gov\.com)$
+DOMAIN,www.datadoghq-browser-agent.com
+
+# Region-specific Anthropic AWS endpoint (not necessarily covered by anthropic.mrs)
+DOMAIN-REGEX,(?i)^aws-external-anthropic\.[a-z]{2}(?:-[a-z]+)+-[0-9]+\.api\.aws$
+
+# Regional or attachment Intercom endpoints not guaranteed by intercom.mrs
+DOMAIN-REGEX,(?i)^(?:[a-z0-9-]+\.)*intercom-attachments(?:-[0-9]+)?\.(?:com|eu)$
+DOMAIN-SUFFIX,intercomcdn.eu
+DOMAIN-SUFFIX,intercomusercontent.com
+DOMAIN-SUFFIX,intercomassets.eu
+DOMAIN,intercom-sheets.com
+DOMAIN,www.intercom-reporting.com
+DOMAIN,intercom.help
+
+# Feature flags / telemetry; precautionary, not verified for current Claude Web
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,assetsconfigcdn.org
+DOMAIN-SUFFIX,prodregistryv2.org
+DOMAIN-SUFFIX,beyondwickedmapping.org
+DOMAIN,api.statsig.com
+DOMAIN,api.statsigcdn.com
+DOMAIN,cdn.growthbook.io
+
+# Shared analytics / telemetry: may redirect other LAN devices through the VPN
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,analytics.google.com
+DOMAIN,www.googletagmanager.com
+DOMAIN,stats.g.doubleclick.net
+DOMAIN,googleads.g.doubleclick.net
+DOMAIN,track.hubspot.com
+DOMAIN,js.hs-analytics.net
+DOMAIN,links.iterable.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,segment.com
