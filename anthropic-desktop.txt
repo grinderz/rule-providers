@@ -6,7 +6,7 @@ DOMAIN,form.typeform.com
 DOMAIN,embed.typeform.com
 DOMAIN,js.hsforms.net
 
-# Login, browser challenges, frontend libraries and CDN
+# Authentication / CDN / frontend dependencies
 DOMAIN,accounts.google.com
 DOMAIN,challenges.cloudflare.com
 DOMAIN,fonts.googleapis.com
@@ -16,19 +16,6 @@ DOMAIN,cdn.tailwindcss.com
 DOMAIN,code.jquery.com
 DOMAIN,unpkg.com
 
-# Storage, network and utility endpoints
+# Shared storage / DNS connectivity
 DOMAIN,storage.googleapis.com
 DOMAIN,cloudflare-dns.com
-DOMAIN,idliststorage.blob.core.windows.net
-DOMAIN,formulae.brew.sh
-DOMAIN,www.google.com
-DOMAIN,pay.google.com
-
-# Additional third-party content and integrations
-DOMAIN,embedded-dashboards.metronome.com
-DOMAIN,api.sanity.io
-DOMAIN,cdn.sanity.io
-DOMAIN,maps.googleapis.com
-DOMAIN,maps.gstatic.com
-DOMAIN,player.vimeo.com
-DOMAIN,fast.wistia.net
