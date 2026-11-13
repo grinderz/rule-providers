@@ -35,6 +35,7 @@ DOMAIN-SUFFIX,whatismyipaddress.com
 DOMAIN-SUFFIX,whatismyip.com
 DOMAIN-SUFFIX,ipregistry.co
 DOMAIN-SUFFIX,ip.wtf
+DOMAIN-SUFFIX,dnsleaktest.com
 
 # browserleak
 DOMAIN,browserleaks.com
