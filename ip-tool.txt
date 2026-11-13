@@ -1,4 +1,3 @@
-DOMAIN,ip.wtf
 DOMAIN,ipinfo.io
 DOMAIN,checkip.amazonaws.com
 DOMAIN,ipwho.is
@@ -35,6 +34,7 @@ DOMAIN-SUFFIX,ident.me
 DOMAIN-SUFFIX,whatismyipaddress.com
 DOMAIN-SUFFIX,whatismyip.com
 DOMAIN-SUFFIX,ipregistry.co
+DOMAIN-SUFFIX,ip.wtf
 
 # browserleak
 DOMAIN,browserleaks.com
