@@ -66,6 +66,8 @@ DOMAIN-SUFFIX,bitwarden.com
 DOMAIN-SUFFIX,izzysoft.de
 DOMAIN-SUFFIX,open-meteo.com
 DOMAIN-SUFFIX,nextdns.io
+DOMAIN-SUFFIX,lenovo.com.cn
+DOMAIN-SUFFIX,f.bank
 
 # hetzner
 DOMAIN-SUFFIX,hetzner.com
