@@ -68,6 +68,7 @@ DOMAIN-SUFFIX,open-meteo.com
 DOMAIN-SUFFIX,nextdns.io
 DOMAIN-SUFFIX,lenovo.com.cn
 DOMAIN-SUFFIX,f.bank
+DOMAIN-SUFFIX,durev-connect.online
 
 # hetzner
 DOMAIN-SUFFIX,hetzner.com
